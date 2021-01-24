@@ -12,6 +12,10 @@ namespace KampGun4Odev5
             MyDictionary<int, string> myDictionary = new MyDictionary<int, string>();
 
             myDictionary.Add(1, "olcay");
+
+            Console.WriteLine(myDictionary[1]); 
+
+           
            
         }
     }
